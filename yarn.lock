@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@u-blox/custom-feed@^4.2.2":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@u-blox/custom-feed/-/custom-feed-1.0.0.tgz#41204e242d291f96253ccb255532ea5b38dea1a1"
-  integrity sha512-Q5HAyb/Et4y2G1d1SXFspiL12lJEMVVc5ja1EWOjYHVPkudEepC1qDByiNFeBXpyr7op9UIisqjWouT/HC/+kw==
+"@u-blox/custom-feed@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@u-blox/custom-feed/-/custom-feed-1.0.1.tgz#99cb65b95e1250e33c31a893e8832747dd784341"
+  integrity sha512-HW0bczSISjfxQxJ0PBi6xv1qv0iZBDz67FJp1JHjxSXgXsDMkUM9LXl/0VVPJe5BrNDhT6zSaMlxGYqzrAJwKg==
   dependencies:
     xml-js "^1.6.11"
 
