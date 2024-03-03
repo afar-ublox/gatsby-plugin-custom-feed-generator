@@ -18,7 +18,7 @@
     "feed"
   ],
   "dependencies": {
-    "@u-blox/custom-feed": "1.0.4",
+    "@u-blox/custom-feed": "1.0.5",
     "pify": "^3.0.0",
     "url-join": "^4.0.1"
   },

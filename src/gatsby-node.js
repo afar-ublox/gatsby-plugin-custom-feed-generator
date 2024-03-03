@@ -18,14 +18,9 @@ exports.onPostBuild = async ({ graphql }, pluginOptions) => {
     const feedQuery = await runQuery(graphql, feed.query);
     const query = { ...siteQuery, ...feedQuery };
     const feedItems = feed.normalize({ query });
-    console.log("Main",feedItems);
+    
     const output = buildFeed({
-      site,
-      items: feedItems,
-      name: feed.name,
-      addToHeader: feed.addToHeader ? feed.addToHeader : true,
-      path: feed.path ? feed.path : publicPath,
-      ...feed.options,
+      items: feedItems
     });
 
     if (!fs.existsSync(feed.path)) {
