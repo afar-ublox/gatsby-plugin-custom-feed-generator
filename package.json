@@ -1,6 +1,6 @@
 {
   "name": "@u-blox/custom-feed-builder-gatsby",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Generate Custom RSS and JSON feeds for a Gatsby website at custom location, extring this plugin from @u-blox/custom-feed-builder-gatsby which does not support non standard values in feed",
   "scripts": {
     "build": "babel src --out-dir . ",
@@ -18,7 +18,7 @@
     "feed"
   ],
   "dependencies": {
-    "@u-blox/custom-feed": "1.0.1",
+    "@u-blox/custom-feed": "1.0.4",
     "pify": "^3.0.0",
     "url-join": "^4.0.1"
   },
