@@ -19,14 +19,12 @@ exports.onPostBuild = async ({ graphql }, pluginOptions) => {
     const query = { ...siteQuery, ...feedQuery };
     const feedItems = feed.normalize({ query });
     
-    const output = buildFeed({
-      items: feedItems
-    });
+    const output = buildFeed(feedItems);
 
     if (!fs.existsSync(feed.path)) {
       fs.mkdirSync(feed.path, { recursive: true }, (err) => {});
     }
-    // console.log(options);
+    console.log(output.json1(), output.rss2());
 
     if (feed.json) {
       // console.log(`Generating JSON feed for ${feed.name}.json @ ${feed.path}`)
