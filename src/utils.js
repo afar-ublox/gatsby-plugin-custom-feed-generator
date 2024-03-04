@@ -1,4 +1,4 @@
-import { Feed } from "feed";
+import { Feed } from "@u-blox/custom-feed";
 
 const buildFeed = (items) => {
   const feed = new Feed();
